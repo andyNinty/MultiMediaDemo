@@ -1,14 +1,19 @@
 package andy.lee.multimediademo;
 
+
 import android.graphics.Bitmap;
 import android.graphics.Matrix;
-import android.media.ExifInterface;
+import android.support.media.ExifInterface;
 
 import java.io.File;
 import java.io.IOException;
 
 /**
- * andy.lee.multimediademo
+ * 用于处理应用内图片旋转方向出错的问题
+ * 更多细节详见http://developers.googleblog.cn/2017/01/exifinterface.html
+ * 随着 25.1.0 支持库的发布，支持库大家庭迎来了一名新成员：ExifInterface 支持库。
+ * 由于 Android 7.1 引入了对框架 ExifInterface 的重大改进，
+ * 因此只有通过支持库的 ExifInterface 让所有 API 9 以上的设备都能利用这些改进才有意义。
  * Created by andy on 17-1-4.
  */
 
